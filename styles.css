@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.google.com/imgres?q=football%20ground&imgurl=http%3A%2F%2F5.imimg.com%2Fdata5%2FPT%2FRK%2FMY-14059388%2Ffootball-flooring-service.jpg&imgrefurl=https%3A%2F%2Fm.indiamart.com%2Fproddetail%2Ffootball-flooring-service-19714634588.html&docid=qGwH4zQVPRKniM&tbnid=-11tHojgITY-lM&vet=12ahUKEwi27_CyipWHAxUp1zgGHcryB7YQM3oECBgQAA..i&w=896&h=550&hcb=2&ved=2ahUKEwi27_CyipWHAxUp1zgGHcryB7YQM3oECBgQAA') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-color: rgb(20 100 200);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em;
+    border-radius: 8px;
+    background-color: rgb(10 100 40);
+    box-shadow: 0 2px 4px rgb(0 0 0);
+}
+
+section h2 {
+    text-align: center;
+}
+
+#quiz-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer {
+    background-color: rgb(170 40 40);
+    color: rgb(255 255 255);
+    border: none;
+    padding: 1em;
+    margin: 0.5em 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.answer:hover {
+    background-color: rgb(66 255 108);
+    color: rgb(0 0 0);
+}
+
+footer {
+    background-color: rgb(17 141 203 / 70%);
+    color: white;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    section {
+        padding: 1em;
+        margin: 0.5em;
+    }
+}
